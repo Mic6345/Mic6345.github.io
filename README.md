@@ -1,1 +1,1 @@
-<a href="coursera-module-2-assignment/index.html">
+<a href="coursera-module-2-assignment/index.html">Coursera Assignment 2</a>
