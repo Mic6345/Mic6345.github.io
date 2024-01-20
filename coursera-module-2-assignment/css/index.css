@@ -1,8 +1,16 @@
+@font-face {
+    font-family: "Recursive";
+    src: 
+        url("fonts/Recursive_VF_1.085.woff2") format("woff2"), 
+        url("fonts/Recursive_VF_1.085.woff") format("woff");
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     border: 0;
     margin: 0;
+    font-family: "Recursive", 'Courier New', Courier, monospace;
 }
 
 body {
@@ -15,7 +23,7 @@ body {
     width: 100%;
     padding: 50px 0px;
     font-size: 175%;
-    gap: 30px;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
 }
