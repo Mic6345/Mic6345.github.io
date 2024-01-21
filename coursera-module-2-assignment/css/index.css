@@ -1,8 +1,15 @@
 @font-face {
-    font-family: "Recursive";
+    font-family: "Recursive-Var";
     src: 
         url("fonts/Recursive_VF_1-085.woff2") format("woff2"), 
         url("fonts/Recursive_VF_1-085.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Recursive-Mono-Casual-Static";
+    src: 
+        url("fonts/RecursiveMonoCslSt-Regular.woff2") format("woff2"),
+        url("fonts/RecursiveMonoCslSt-Regular.woff") format("woff");
 }
 
 * {
@@ -10,7 +17,7 @@
     padding: 0;
     border: 0;
     margin: 0;
-    font-family: "Recursive", monospace;
+    font-family: "Recursive-Var", "Recursive-Mono-Casual-Static", monospace;
 }
 
 body {
